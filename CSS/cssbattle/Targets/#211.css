@@ -34,6 +34,8 @@
     border-radius: 70px 70px 0 0;
     background: #FFFFFF;
     transform: translate(72px, -8px);
+    position: relative;  /* Ensure z-index works */
+    z-index: 1; 
   }
   .ssc {
     width: 100px;
@@ -42,13 +44,34 @@
     background: #9B8170;
     transform: translate(20px, 20px);
   }
+  
   .sc:last-child {
     transform: translate(172px, -108px);
+    z-index: 0; 
+  }
+
+  .sq {
+    width: 20px;
+    height: 20px;
+    background-color: #9B8170;
+    transform: translate(172px, 232px);
+    position: absolute;
+    z-index: 2;
+  }
+  .sq1 {
+    width: 31px;
+    height: 20px;
+    background-color: #9B8170;
+    transform: translate(252px, 158px) rotate(-45deg);
+    position: absolute;
+    z-index: 2;
   }
   
 </style>
 
 <div class="body">
+  <div class="sq"></div>
+  <div class="sq1"></div>
   <div> 
     <div class="c">
       <div class="cs"></div>
@@ -68,4 +91,5 @@
       <div class="ssc"></div>
     </div>
   </div>
+  
 </div>
