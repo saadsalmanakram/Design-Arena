@@ -1,0 +1,48 @@
+<style>
+  body {
+    width: 100px;
+    height: 100px;
+    background: #328FC1;
+  }
+  .rectangle {
+    width: 100px;
+    height: 20px;
+    background: #EEB850;
+    margin-top: 118px;
+    margin-left: 18px;
+  }
+  .rectangle1 {
+    width: 100px;
+    height: 20px;
+    background: #EEB850;
+    margin-top: 24px;
+    margin-left: 18px;
+  }
+  .rectangle2 {
+    width: 100px;
+    height: 20px;
+    background: #EEB850;
+    margin-top: -20px;
+    margin-left: 266px;
+  }
+  .rectangle3 {
+    width: 100px;
+    height: 20px;
+    background: #EEB850;
+    margin-top: -64px;
+    margin-left: 266px;
+  }
+  .rectangle4 {
+    width: 100px;
+    height: 20px;
+    background: #EEB850;
+    margin-top: 2px;
+    margin-left: 142px;
+  }
+</style>
+
+<div class="rectangle"></div>
+<div class="rectangle1"></div>
+<div class="rectangle2"></div>
+<div class="rectangle3"></div>
+<div class="rectangle4"></div>
