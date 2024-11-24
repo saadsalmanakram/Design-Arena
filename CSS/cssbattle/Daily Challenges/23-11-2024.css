@@ -1,0 +1,37 @@
+<style>
+  body {
+    width: 100vw;
+    height: 100vw;
+    background: #EEB850;
+    margin: -2vw;
+  }
+
+  .b_block {
+    width: 217px;
+    height: 110px;
+    margin-left: 100px;
+    margin-top: 103px;
+    border-radius: 20px;
+    background: #243D83;
+
+  }
+  
+  .s_block {
+    width: 70px;
+    height: 15px;
+    margin-left: 173px;
+    margin-top: -35px;
+    background: #EEB850;
+  }
+  .s1_block {
+    width: 70px;
+    height: 15px;
+    margin-left: 173px;
+    margin-top: -70px;
+    background: #EEB850;
+  }
+</style>
+  
+<div class='b_block'></div>
+<div class='s_block'></div>
+<div class='s1_block'></div>
