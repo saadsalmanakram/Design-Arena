@@ -19,9 +19,6 @@
             padding: 10px 20px;
             text-align: center;
         }
-        main {      /* Vertical */
-            transform: translate(500px, 100px);
-        }
         footer {
             background-color: #333;
             color: white;
@@ -32,12 +29,15 @@
             width: 100%;
         }
 
+        .div_container {
+            transform: translate(500px, 100px);
+        }
 
         .bulbasaur {
             height: 200px;
             width: 200px;
             background-color: #cef79f;
-            border-radius: 120px 0 120px 0;
+            border-radius: 140px 0 140px 0;
         }
         <!-- Color Pallets of bulbasaur 
              #cef79f (206,247,159)
@@ -58,7 +58,9 @@
 
 
     <main>
-        <div class="bulbasaur"></div>
+        <div class="div_container">
+            <div class="bulbasaur"></div>
+        </div>
     </main>
 
 
