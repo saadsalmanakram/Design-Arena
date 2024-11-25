@@ -1,0 +1,66 @@
+ <style>
+  body {
+    background: #E8AD6D;
+  }
+  .circle {
+    width: 60px;
+    height: 60px;
+    background-color:#7E6293;
+    border-radius: 30px;
+    position: absolute;
+  }
+  .c1 {
+    top: 30px;
+    left: 120px;
+  }
+  .c2 {
+    top: 30px;
+    left: 220px;
+  }
+  .c3 {
+    top: 120px;
+    left: 180px;
+  }
+  .c4 {
+    top: 210px;
+    left: 120px;
+  }
+
+  .rec {
+    width:100px;
+    height:60px;
+    background-color: #7E6293;
+    border-radius: 0 10px 10px 0;
+    position: absolute;
+  }
+
+  .r1{
+    top: 30px;
+    left: 155px;    
+  }
+  .r2{
+    top: 120px;
+    left: 120px;    
+  }
+
+  .rf {
+    width: 60px;
+    height: 210px;
+    background-color: #7E6293;
+    transform: translate(112px,40px);
+    border-radius: 15px 0 15px 15px;
+    position: absolute;
+  }
+  
+</style>
+
+
+<div>
+  <div class="circle c1"></div>
+  <div class="circle c2"></div>
+  <div class="circle c3"></div>
+  <div class="circle c4"></div>
+  <div class="rec r1"></div>
+  <div class="rec r2"></div>
+  <div class="rf"></div>
+</div>
