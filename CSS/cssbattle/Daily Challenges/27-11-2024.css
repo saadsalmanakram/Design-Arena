@@ -1,0 +1,26 @@
+<style>
+  body {
+    background: #C0D6E7;
+  }
+
+  .t {
+    width: 0;
+    height: 0;
+    transform: translate(77.3px,27px);
+    border-left: 115px solid transparent;
+    border-right: 115px solid transparent;
+    border-bottom: 230px solid #D95362;
+  }
+
+  .r {
+    width: 140px;
+    height: 40px;
+    background-color: #C0D6E7;
+    transform: translate(121px,-108px);
+  }
+</style>
+
+<div>
+  <div class="t"></div>
+  <div class="r"></div>
+</div>
