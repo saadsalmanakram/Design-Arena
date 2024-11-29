@@ -166,5 +166,11 @@ Ans- By installing a plugin that supports PostCSS language, which recognizes Tai
 
 (------------------------------------------------------------------------------------------------)
 
+29- What does the Tailwind CSS IntelliSense plugin for VS Code provide?
+
+Ans- It provides advanced features like autocomplete, syntax highlighting, linting, and hover previews specifically for Tailwind CSS.
+
+(------------------------------------------------------------------------------------------------)
+
 
 
