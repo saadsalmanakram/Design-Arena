@@ -226,5 +226,11 @@ Ans- Hover previews display the complete CSS for a Tailwind class when you hover
 
 (-----------------------------------------------------------------------------------------------)
 
+39- How does Tailwind CSS IntelliSense help with potential bugs in CSS?
+
+Ans- It provides linting that highlights errors and potential bugs in both your CSS and HTML markup.
+
+(-----------------------------------------------------------------------------------------------)
+
 
 
