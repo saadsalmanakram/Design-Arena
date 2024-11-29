@@ -100,5 +100,11 @@ Ans- Plugins are used to add custom utilities, components, or base styles to ext
 
 (------------------------------------------------------------------------------------------------)
 
+18- How do you reuse styles in Tailwind CSS?
+
+Ans- You can create reusable component classes or use the @apply directive in custom CSS files.
+
+(------------------------------------------------------------------------------------------------)
+
 
 
