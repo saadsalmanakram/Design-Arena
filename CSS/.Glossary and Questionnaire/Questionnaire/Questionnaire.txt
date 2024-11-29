@@ -208,5 +208,11 @@ Ans- JetBrains IDEs like WebStorm and PhpStorm provide intelligent Tailwind CSS 
 
 (-----------------------------------------------------------------------------------------------)
 
+36- How can you use Tailwind CSS with JetBrains IDEs?
+
+Ans- JetBrains IDEs support Tailwind CSS through their built-in intelligent completion for HTML and @apply, improving the developer workflow in these environments.
+
+(-----------------------------------------------------------------------------------------------)
+
 
 
