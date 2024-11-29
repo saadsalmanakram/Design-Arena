@@ -388,6 +388,13 @@ Ans- Tailwind recommends using cssnano for minifying CSS files in production.
 
 (-----------------------------------------------------------------------------------------------)
 
+66- How can you enable CSS minification when using Tailwind CLI?
+
+Ans- You can enable minification by using the --minify flag with Tailwind CLI: npx tailwindcss -o build.css --minify.
+
+(-----------------------------------------------------------------------------------------------)
+
+
 
 
 
