@@ -75,3 +75,12 @@ Ans- Tailwind uses responsive modifiers (e.g., sm:, md:) to apply styles based o
 Ans- Tailwind provides modifiers like hover:, focus:, and active: for styling interactive states.
 
 (------------------------------------------------------------------------------------------------)
+
+14- How can you enable dark mode in Tailwind CSS?
+
+Ans- Use the dark: modifier in your HTML to apply styles for dark mode.
+
+(------------------------------------------------------------------------------------------------)
+
+
+
