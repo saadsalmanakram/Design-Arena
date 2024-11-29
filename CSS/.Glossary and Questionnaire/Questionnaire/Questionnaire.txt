@@ -364,6 +364,11 @@ Ans- Install Tailwind as a PostCSS plugin and include it in your postcss.config.
 
 (-----------------------------------------------------------------------------------------------)
 
+62- What makes Tailwind CSS performance-focused?
+
+Ans- Tailwind CSS generates only the CSS that is actually used in your project, resulting in a smaller file size.
+
+(-----------------------------------------------------------------------------------------------)
 
 
 
