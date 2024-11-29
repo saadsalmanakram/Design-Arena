@@ -274,6 +274,12 @@ Ans- Tailwind uses its own tailwindcss/nesting plugin to handle nesting and is c
 
 (-----------------------------------------------------------------------------------------------)
 
+47- What are the challenges of using Sass with Tailwind?
+
+Ans- Sass struggles with !important when used with @apply and also has issues with Tailwind's screen() function unless wrapped in parentheses.
+
+(-----------------------------------------------------------------------------------------------)
+
 
 
 
