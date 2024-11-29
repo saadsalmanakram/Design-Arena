@@ -340,6 +340,11 @@ Ans- No, since Tailwind's theme() function is evaluated after the preprocessor r
 
 (-----------------------------------------------------------------------------------------------)
 
+58- What is the recommended way to use imports with Tailwind in a multi-file setup?
+
+Ans- Use the postcss-import plugin to handle CSS imports at build time, making sure imports are at the top of the file.
+
+(-----------------------------------------------------------------------------------------------)
 
 
 
