@@ -15,3 +15,10 @@ Ans- Tailwind scans your template files for class names, generates the correspon
 Ans- It generates CSS on-demand by scanning templates, avoiding runtime processing, and provides a wide range of utility classes.
 
 (------------------------------------------------------------------------------------------------)
+
+4- How can you install Tailwind CSS using npm?
+
+Ans- Run npm install -D tailwindcss and initialize the configuration with npx tailwindcss init.
+
+(------------------------------------------------------------------------------------------------)
+
