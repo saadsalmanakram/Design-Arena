@@ -40,3 +40,9 @@ Ans- Tailwind has three core layers: @tailwind base, @tailwind components, and @
 
 (------------------------------------------------------------------------------------------------)
 
+8- How do you start the Tailwind CLI build process?
+
+Ans- Run npx tailwindcss -i ./src/input.css -o ./src/output.css --watch.
+
+(------------------------------------------------------------------------------------------------)
+
