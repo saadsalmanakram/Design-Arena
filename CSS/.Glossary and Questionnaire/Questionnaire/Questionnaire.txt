@@ -310,6 +310,12 @@ Ans- Use interpolation with parentheses (e.g., @media ({'screen(md)'}) { ... }).
 
 (-----------------------------------------------------------------------------------------------)
 
+53- How can you use CSS variables in Tailwind?
+
+Ans- Tailwind supports native CSS variables (custom properties), so you can use them alongside Tailwind’s utilities.
+
+(-----------------------------------------------------------------------------------------------)
+
 
 
 
