@@ -238,6 +238,12 @@ Ans- It works seamlessly with custom Tailwind configurations, ensuring that auto
 
 (-----------------------------------------------------------------------------------------------)
 
+41- What is the role of Tailwind in a CSS preprocessing setup?
+
+Ans- Tailwind is a PostCSS plugin that can be used with preprocessors like Sass, Less, and Stylus to simplify utility-based styling.
+
+(-----------------------------------------------------------------------------------------------)
+
 
 
 
