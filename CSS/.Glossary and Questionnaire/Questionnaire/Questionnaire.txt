@@ -160,5 +160,11 @@ Ans- Native CSS syntax may not recognize custom Tailwind at-rules like @tailwind
 
 (------------------------------------------------------------------------------------------------)
 
+28- How can you solve the issue of unrecognized custom Tailwind at-rules in your editor?
+
+Ans- By installing a plugin that supports PostCSS language, which recognizes Tailwind's custom at-rules and functions.
+
+(------------------------------------------------------------------------------------------------)
+
 
 
