@@ -400,6 +400,12 @@ Ans- Add cssnano to the PostCSS configuration for production environments:
 
 (-----------------------------------------------------------------------------------------------)
 
+68- Why doesn’t Tailwind CSS require code-splitting for most projects?
+
+Ans- Tailwind generates a single small CSS file that is downloaded once, cached, and used across pages, so code-splitting isn’t necessary.
+
+(-----------------------------------------------------------------------------------------------)
+
 
 
 
