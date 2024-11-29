@@ -94,5 +94,11 @@ Ans- Add custom values inside the extend object within the theme section of tail
 
 (------------------------------------------------------------------------------------------------)
 
+17- What are plugins in Tailwind CSS?
+
+Ans- Plugins are used to add custom utilities, components, or base styles to extend Tailwind’s functionality.
+
+(------------------------------------------------------------------------------------------------)
+
 
 
