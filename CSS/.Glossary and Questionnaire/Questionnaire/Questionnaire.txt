@@ -352,6 +352,12 @@ Ans- The postcss-import plugin allows you to manage imports in your CSS at build
 
 (-----------------------------------------------------------------------------------------------)
 
+60- How does PostCSS handle preprocessing differently from Sass or Less?
+
+Ans- PostCSS processes the CSS after the build step, allowing for better integration with Tailwind's custom features like @apply and theme().
+
+(-----------------------------------------------------------------------------------------------)
+
 
 
 
