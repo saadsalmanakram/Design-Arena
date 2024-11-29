@@ -148,5 +148,11 @@ Ans- Use purge settings to remove unused classes, reducing the final CSS size.
 
 (------------------------------------------------------------------------------------------------)
 
+26- What is the purpose of using an editor plugin for Tailwind CSS?
+
+Ans- Editor plugins for Tailwind CSS help improve syntax support and enable features like autocomplete, linting, and syntax highlighting for custom Tailwind-specific at-rules.
+
+(------------------------------------------------------------------------------------------------)
+
 
 
