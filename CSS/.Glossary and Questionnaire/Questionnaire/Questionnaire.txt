@@ -154,5 +154,11 @@ Ans- Editor plugins for Tailwind CSS help improve syntax support and enable feat
 
 (------------------------------------------------------------------------------------------------)
 
+27- What is the issue with native CSS syntax support in editors when using Tailwind CSS?
+
+Ans- Native CSS syntax may not recognize custom Tailwind at-rules like @tailwind, @apply, and @config, leading to warnings or errors in some editors.
+
+(------------------------------------------------------------------------------------------------)
+
 
 
