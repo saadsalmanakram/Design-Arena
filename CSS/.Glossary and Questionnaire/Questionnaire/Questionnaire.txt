@@ -34,3 +34,9 @@ Ans- In tailwind.config.js, add paths to your template files under the content k
 
 (------------------------------------------------------------------------------------------------)
 
+7- What are Tailwind CSS layers?
+
+Ans- Tailwind has three core layers: @tailwind base, @tailwind components, and @tailwind utilities.
+
+(------------------------------------------------------------------------------------------------)
+
