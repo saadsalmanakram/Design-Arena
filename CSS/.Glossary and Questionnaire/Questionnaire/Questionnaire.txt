@@ -430,6 +430,11 @@ Ans- The key benefit is its ability to generate very small CSS files (often unde
 
 (-----------------------------------------------------------------------------------------------)
 
+73- How does Tailwind CSS handle unused styles in a project?
+
+Ans- Tailwind uses a purging mechanism to remove unused CSS classes, reducing the final size of the CSS file.
+
+(-----------------------------------------------------------------------------------------------)
 
 
 
