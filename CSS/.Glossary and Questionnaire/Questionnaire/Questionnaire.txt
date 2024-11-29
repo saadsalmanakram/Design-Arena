@@ -124,4 +124,10 @@ Ans- It tells Tailwind which files to scan for class names to generate the final
 
 (------------------------------------------------------------------------------------------------)
 
+22- What is the purpose of PostCSS in Tailwind CSS?
+
+Ans- PostCSS is used to process CSS with Tailwind and other plugins, allowing more advanced customization and processing.
+
+(------------------------------------------------------------------------------------------------)
+
 
