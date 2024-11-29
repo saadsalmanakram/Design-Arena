@@ -46,3 +46,9 @@ Ans- Run npx tailwindcss -i ./src/input.css -o ./src/output.css --watch.
 
 (------------------------------------------------------------------------------------------------)
 
+9- What’s the purpose of the --watch flag in Tailwind CLI?
+
+Ans- It continuously monitors template files for changes and rebuilds the CSS automatically.
+
+(------------------------------------------------------------------------------------------------)
+
