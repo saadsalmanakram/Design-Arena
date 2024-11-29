@@ -250,6 +250,12 @@ Ans- No, Tailwind works without preprocessors, and you can rely on PostCSS plugi
 
 (-----------------------------------------------------------------------------------------------)
 
+43- What is the main benefit of using PostCSS instead of traditional preprocessors like Sass?
+
+Ans- PostCSS offers faster builds and avoids quirks related to custom syntax used by Tailwind.
+
+(-----------------------------------------------------------------------------------------------)
+
 
 
 
