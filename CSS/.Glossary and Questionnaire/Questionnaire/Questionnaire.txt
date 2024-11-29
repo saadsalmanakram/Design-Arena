@@ -118,4 +118,10 @@ Ans- Follow framework-specific guides to configure Tailwind with their build too
 
 (------------------------------------------------------------------------------------------------)
 
+21- What does the content array in tailwind.config.js specify?
+
+Ans- It tells Tailwind which files to scan for class names to generate the final CSS.
+
+(------------------------------------------------------------------------------------------------)
+
 
