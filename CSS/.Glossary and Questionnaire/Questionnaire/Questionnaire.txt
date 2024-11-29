@@ -196,5 +196,11 @@ Ans- It ensures that Tailwind classes are always sorted consistently, making the
 
 (-----------------------------------------------------------------------------------------------)
 
+34- Can the Tailwind CSS Prettier plugin work in different editors?
+
+Ans- Yes, since it’s a Prettier plugin, it works in any editor or IDE that supports Prettier, including the command line.
+
+(-----------------------------------------------------------------------------------------------)
+
 
 
