@@ -292,6 +292,18 @@ Ans- Wrap the screen() function in parentheses (e.g., @media (screen(md)) { ... 
 
 (-----------------------------------------------------------------------------------------------)
 
+50- How does Stylus handle @apply and how do you resolve issues with it?
+
+Ans- Stylus requires @css blocks for @apply to work correctly, as it doesn’t natively process @apply.
+
+(-----------------------------------------------------------------------------------------------)
+
+51- What’s the workaround for using @apply in Stylus?
+
+Ans- Wrap the CSS rule in an @css block or use the theme() function to directly reference Tailwind design tokens.
+
+(-----------------------------------------------------------------------------------------------)
+
 
 
 
