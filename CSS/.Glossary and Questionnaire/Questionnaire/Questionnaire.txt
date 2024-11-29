@@ -52,3 +52,8 @@ Ans- It continuously monitors template files for changes and rebuilds the CSS au
 
 (------------------------------------------------------------------------------------------------)
 
+10- How do you include Tailwind CSS in your HTML file?
+
+Ans- Link the compiled output.css file in the <head> section of your HTML.
+
+(------------------------------------------------------------------------------------------------)
