@@ -280,6 +280,12 @@ Ans- Sass struggles with !important when used with @apply and also has issues wi
 
 (-----------------------------------------------------------------------------------------------)
 
+48- How do you fix Sass issues with !important and @apply?
+
+Ans- Use interpolation (e.g., #{!important}) to compile @apply rules with !important correctly in Sass.
+
+(-----------------------------------------------------------------------------------------------)
+
 
 
 
