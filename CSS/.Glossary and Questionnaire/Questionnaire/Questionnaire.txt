@@ -136,4 +136,11 @@ Ans- Extend or override the default colors object in the theme section of tailwi
 
 (------------------------------------------------------------------------------------------------)
 
+24- What’s the difference between Tailwind CSS and Bootstrap?
+
+Ans- Tailwind is utility-first and highly customizable, while Bootstrap provides pre-designed components with a fixed design system.
+
+(------------------------------------------------------------------------------------------------)
+
+
 
