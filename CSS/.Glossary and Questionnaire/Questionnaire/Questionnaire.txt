@@ -142,5 +142,11 @@ Ans- Tailwind is utility-first and highly customizable, while Bootstrap provides
 
 (------------------------------------------------------------------------------------------------)
 
+25- How do you optimize the production build of Tailwind CSS?
+
+Ans- Use purge settings to remove unused classes, reducing the final CSS size.
+
+(------------------------------------------------------------------------------------------------)
+
 
 
