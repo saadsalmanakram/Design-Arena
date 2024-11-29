@@ -304,6 +304,12 @@ Ans- Wrap the CSS rule in an @css block or use the theme() function to directly 
 
 (-----------------------------------------------------------------------------------------------)
 
+52- How do you solve Stylus issues with Tailwind’s screen() function?
+
+Ans- Use interpolation with parentheses (e.g., @media ({'screen(md)'}) { ... }).
+
+(-----------------------------------------------------------------------------------------------)
+
 
 
 
