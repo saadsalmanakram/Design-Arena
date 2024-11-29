@@ -382,5 +382,12 @@ Ans- Even large projects can result in CSS files smaller than 10KB, as demonstra
 
 (-----------------------------------------------------------------------------------------------)
 
+65- What CSS minification tool does Tailwind recommend?
+
+Ans- Tailwind recommends using cssnano for minifying CSS files in production.
+
+(-----------------------------------------------------------------------------------------------)
+
+
 
 
