@@ -172,5 +172,11 @@ Ans- It provides advanced features like autocomplete, syntax highlighting, linti
 
 (------------------------------------------------------------------------------------------------)
 
+30- How does the Tailwind CSS IntelliSense plugin enhance the developer experience in VS Code?
+
+Ans- It offers intelligent class name suggestions, error highlighting, previewing the full CSS of a class on hover, and accurate syntax highlighting for Tailwind classes.
+
+(------------------------------------------------------------------------------------------------)
+
 
 
