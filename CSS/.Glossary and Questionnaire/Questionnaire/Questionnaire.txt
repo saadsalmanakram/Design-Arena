@@ -9,3 +9,9 @@ Ans- Tailwind CSS is a utility-first CSS framework that helps developers rapidly
 Ans- Tailwind scans your template files for class names, generates the corresponding styles, and compiles them into a static CSS file.
 
 (------------------------------------------------------------------------------------------------)
+
+3- Why is Tailwind CSS considered fast and flexible?
+
+Ans- It generates CSS on-demand by scanning templates, avoiding runtime processing, and provides a wide range of utility classes.
+
+(------------------------------------------------------------------------------------------------)
