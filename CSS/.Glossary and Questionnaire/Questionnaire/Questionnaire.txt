@@ -22,3 +22,9 @@ Ans- Run npm install -D tailwindcss and initialize the configuration with npx ta
 
 (------------------------------------------------------------------------------------------------)
 
+5- What is the Tailwind CLI?
+
+Ans- Tailwind CLI is a command-line tool to quickly build and watch Tailwind projects without needing additional build tools.
+
+(------------------------------------------------------------------------------------------------)
+
