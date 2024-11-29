@@ -262,6 +262,12 @@ Ans- It allows you to organize your CSS into multiple files and combine them at 
 
 (-----------------------------------------------------------------------------------------------)
 
+45- How do you avoid issues when mixing @import with Tailwind CSS?
+
+Ans- Use separate files for @tailwind declarations and imports, and keep the imports at the top of the file.
+
+(-----------------------------------------------------------------------------------------------)
+
 
 
 
