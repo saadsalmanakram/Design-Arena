@@ -184,5 +184,9 @@ Ans- Prettier can automatically sort Tailwind CSS classes in the recommended ord
 
 (-----------------------------------------------------------------------------------------------)
 
+32- How does the Prettier plugin for Tailwind CSS work?
 
+Ans- It sorts Tailwind classes following the official recommended order and works seamlessly with custom Tailwind configurations, integrating with any editor that supports Prettier.
+
+(-----------------------------------------------------------------------------------------------)
 
