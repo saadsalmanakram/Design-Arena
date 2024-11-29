@@ -418,6 +418,12 @@ Ans- Tailwind ensures a small CSS file size by purging unused styles and applyin
 
 (-----------------------------------------------------------------------------------------------)
 
+71- Is Tailwind’s production CSS configuration automatic in some frameworks?
+
+Ans- Many frameworks automatically handle CSS minification and optimization in production without needing manual configuration.
+
+(-----------------------------------------------------------------------------------------------)
+
 
 
 
