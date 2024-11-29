@@ -106,5 +106,10 @@ Ans- You can create reusable component classes or use the @apply directive in cu
 
 (------------------------------------------------------------------------------------------------)
 
+19- What is Play CDN, and when would you use it?
+
+Ans- Play CDN is a quick way to try Tailwind without setting up a build environment, ideal for prototyping or demos.
+
+(------------------------------------------------------------------------------------------------)
 
 
