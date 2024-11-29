@@ -82,5 +82,11 @@ Ans- Use the dark: modifier in your HTML to apply styles for dark mode.
 
 (------------------------------------------------------------------------------------------------)
 
+15- What is the tailwind.config.js file used for?
+
+Ans- It allows customization of Tailwind’s default configuration, such as theme settings and content paths.
+
+(------------------------------------------------------------------------------------------------)
+
 
 
