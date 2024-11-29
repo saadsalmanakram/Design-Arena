@@ -358,6 +358,12 @@ Ans- PostCSS processes the CSS after the build step, allowing for better integra
 
 (-----------------------------------------------------------------------------------------------)
 
+61- How do you configure Tailwind with a PostCSS plugin?
+
+Ans- Install Tailwind as a PostCSS plugin and include it in your postcss.config.js file alongside other plugins like Autoprefixer.
+
+(-----------------------------------------------------------------------------------------------)
+
 
 
 
