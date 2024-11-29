@@ -28,3 +28,9 @@ Ans- Tailwind CLI is a command-line tool to quickly build and watch Tailwind pro
 
 (------------------------------------------------------------------------------------------------)
 
+6- How do you configure template paths in Tailwind CSS?
+
+Ans- In tailwind.config.js, add paths to your template files under the content key.
+
+(------------------------------------------------------------------------------------------------)
+
