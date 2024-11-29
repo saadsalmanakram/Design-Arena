@@ -190,3 +190,11 @@ Ans- It sorts Tailwind classes following the official recommended order and work
 
 (-----------------------------------------------------------------------------------------------)
 
+33- What is the benefit of using automatic class sorting in Tailwind CSS with Prettier?
+
+Ans- It ensures that Tailwind classes are always sorted consistently, making the code cleaner and easier to maintain.
+
+(-----------------------------------------------------------------------------------------------)
+
+
+
