@@ -394,6 +394,13 @@ Ans- You can enable minification by using the --minify flag with Tailwind CLI: n
 
 (-----------------------------------------------------------------------------------------------)
 
+67- How can you enable CSS minification when using Tailwind as a PostCSS plugin?
+
+Ans- Add cssnano to the PostCSS configuration for production environments:
+
+(-----------------------------------------------------------------------------------------------)
+
+
 
 
 
