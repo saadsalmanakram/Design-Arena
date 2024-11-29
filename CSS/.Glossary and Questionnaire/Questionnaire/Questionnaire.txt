@@ -412,6 +412,13 @@ Ans- Tailwind recommends compressing CSS with Brotli for better network performa
 
 (-----------------------------------------------------------------------------------------------)
 
+70- How does Tailwind handle CSS file size in large projects?
+
+Ans- Tailwind ensures a small CSS file size by purging unused styles and applying minification and compression techniques.
+
+(-----------------------------------------------------------------------------------------------)
+
+
 
 
 
