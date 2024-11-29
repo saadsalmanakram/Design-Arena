@@ -406,6 +406,12 @@ Ans- Tailwind generates a single small CSS file that is downloaded once, cached,
 
 (-----------------------------------------------------------------------------------------------)
 
+69- What compression method does Tailwind recommend for further reducing CSS size?
+
+Ans- Tailwind recommends compressing CSS with Brotli for better network performance.
+
+(-----------------------------------------------------------------------------------------------)
+
 
 
 
