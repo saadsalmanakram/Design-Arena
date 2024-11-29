@@ -268,6 +268,12 @@ Ans- Use separate files for @tailwind declarations and imports, and keep the imp
 
 (-----------------------------------------------------------------------------------------------)
 
+46- How does Tailwind handle nesting with preprocessors like Sass?
+
+Ans- Tailwind uses its own tailwindcss/nesting plugin to handle nesting and is compatible with postcss-nested or postcss-nesting.
+
+(-----------------------------------------------------------------------------------------------)
+
 
 
 
