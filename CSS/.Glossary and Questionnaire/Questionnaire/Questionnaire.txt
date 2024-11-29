@@ -334,6 +334,12 @@ Ans- You must run your preprocessed CSS through PostCSS, as preprocessors proces
 
 (-----------------------------------------------------------------------------------------------)
 
+57- Can you use the Tailwind theme() function in a preprocessor like Sass or Less?
+
+Ans- No, since Tailwind's theme() function is evaluated after the preprocessor runs, you cannot directly pass its output into preprocessor functions.
+
+(-----------------------------------------------------------------------------------------------)
+
 
 
 
