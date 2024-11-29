@@ -316,6 +316,12 @@ Ans- Tailwind supports native CSS variables (custom properties), so you can use 
 
 (-----------------------------------------------------------------------------------------------)
 
+54- What are the benefits of using PostCSS for vendor prefixes with Tailwind?
+
+Ans- PostCSS and Autoprefixer automatically manage vendor prefixes without needing manual intervention, ensuring consistent browser support.
+
+(-----------------------------------------------------------------------------------------------)
+
 
 
 
