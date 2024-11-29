@@ -376,5 +376,11 @@ Ans- Tailwind uses purging to remove unused CSS and minification to reduce the f
 
 (-----------------------------------------------------------------------------------------------)
 
+64- How small can Tailwind CSS files be for large projects?
+
+Ans- Even large projects can result in CSS files smaller than 10KB, as demonstrated by Netflix’s Top 10 page with a 6.5KB CSS file.
+
+(-----------------------------------------------------------------------------------------------)
+
 
 
