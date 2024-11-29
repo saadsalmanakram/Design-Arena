@@ -130,4 +130,10 @@ Ans- PostCSS is used to process CSS with Tailwind and other plugins, allowing mo
 
 (------------------------------------------------------------------------------------------------)
 
+23- How do you customize colors in Tailwind CSS?
+
+Ans- Extend or override the default colors object in the theme section of tailwind.config.js.
+
+(------------------------------------------------------------------------------------------------)
+
 
