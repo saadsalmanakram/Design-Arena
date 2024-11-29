@@ -1,0 +1,49 @@
+<style>
+  body {
+    background: #35312F;
+  }
+  .s {
+    height:200px;
+    width:200px;
+    background-color: #F3AC3C;
+    transform: translate(92px,42px);
+  }
+
+  .ss {
+    height:56px;
+    width:56px;
+    background-color: #F3AC3C;
+    border: 16px solid #35312F;
+    position: relative;
+  }
+
+  .lu {
+    left:-16px;
+    top: -16px;
+  }
+
+  .ld {
+    left:-16px;
+    top: 40px;
+  }
+  
+  .ru {
+    left:128px;
+    top: -192px;
+  }
+
+  .rd {
+    left:128px;
+    top: -136px;
+  }
+
+</style>
+
+<div>
+  <div class="s">
+    <div class="ss lu"></div>
+    <div class="ss ld"></div>
+    <div class="ss ru"></div>
+    <div class="ss rd"></div>
+  </div>
+</div>
