@@ -57,3 +57,10 @@ Ans- It continuously monitors template files for changes and rebuilds the CSS au
 Ans- Link the compiled output.css file in the <head> section of your HTML.
 
 (------------------------------------------------------------------------------------------------)
+
+11- What is the utility-first approach in Tailwind CSS?
+
+Ans- It involves using utility classes directly in the HTML to style elements instead of writing custom CSS.
+
+(------------------------------------------------------------------------------------------------)
+
