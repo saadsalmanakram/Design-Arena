@@ -256,6 +256,12 @@ Ans- PostCSS offers faster builds and avoids quirks related to custom syntax use
 
 (-----------------------------------------------------------------------------------------------)
 
+44- What does the postcss-import plugin do?
+
+Ans- It allows you to organize your CSS into multiple files and combine them at build time, similar to how @import works in preprocessors.
+
+(-----------------------------------------------------------------------------------------------)
+
 
 
 
