@@ -328,6 +328,12 @@ Ans- PostCSS simplifies the build process, offers faster compilation, and avoids
 
 (-----------------------------------------------------------------------------------------------)
 
+56- How do you integrate Tailwind into an existing Sass/Less/Stylus project?
+
+Ans- You must run your preprocessed CSS through PostCSS, as preprocessors process files before Tailwind, potentially causing compatibility issues.
+
+(-----------------------------------------------------------------------------------------------)
+
 
 
 
