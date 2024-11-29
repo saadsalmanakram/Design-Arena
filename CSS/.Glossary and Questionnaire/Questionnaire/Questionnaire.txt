@@ -64,3 +64,9 @@ Ans- It involves using utility classes directly in the HTML to style elements in
 
 (------------------------------------------------------------------------------------------------)
 
+12- How does Tailwind CSS support responsive design?
+
+Ans- Tailwind uses responsive modifiers (e.g., sm:, md:) to apply styles based on screen size.
+
+(------------------------------------------------------------------------------------------------)
+
