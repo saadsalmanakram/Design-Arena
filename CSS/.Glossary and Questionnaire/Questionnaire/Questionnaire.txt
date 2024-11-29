@@ -70,3 +70,8 @@ Ans- Tailwind uses responsive modifiers (e.g., sm:, md:) to apply styles based o
 
 (------------------------------------------------------------------------------------------------)
 
+13- How do you handle interactive states in Tailwind CSS?
+
+Ans- Tailwind provides modifiers like hover:, focus:, and active: for styling interactive states.
+
+(------------------------------------------------------------------------------------------------)
