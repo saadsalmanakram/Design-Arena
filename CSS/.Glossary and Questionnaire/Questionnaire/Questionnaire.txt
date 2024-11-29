@@ -286,6 +286,12 @@ Ans- Use interpolation (e.g., #{!important}) to compile @apply rules with !impor
 
 (-----------------------------------------------------------------------------------------------)
 
+49- What workaround is necessary for using the screen() function in Sass with Tailwind?
+
+Ans- Wrap the screen() function in parentheses (e.g., @media (screen(md)) { ... }).
+
+(-----------------------------------------------------------------------------------------------)
+
 
 
 
