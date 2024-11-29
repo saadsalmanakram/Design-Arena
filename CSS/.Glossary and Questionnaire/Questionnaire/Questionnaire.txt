@@ -88,5 +88,11 @@ Ans- It allows customization of Tailwind’s default configuration, such as them
 
 (------------------------------------------------------------------------------------------------)
 
+16- How do you extend the default theme in Tailwind CSS?
+
+Ans- Add custom values inside the extend object within the theme section of tailwind.config.js.
+
+(------------------------------------------------------------------------------------------------)
+
 
 
