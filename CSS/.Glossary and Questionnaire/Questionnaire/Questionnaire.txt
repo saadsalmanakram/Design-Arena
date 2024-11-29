@@ -232,5 +232,12 @@ Ans- It provides linting that highlights errors and potential bugs in both your 
 
 (-----------------------------------------------------------------------------------------------)
 
+40- How does Tailwind CSS IntelliSense handle custom configurations?
+
+Ans- It works seamlessly with custom Tailwind configurations, ensuring that autocomplete and linting reflect the specific setup of the project.
+
+(-----------------------------------------------------------------------------------------------)
+
+
 
 
