@@ -244,6 +244,12 @@ Ans- Tailwind is a PostCSS plugin that can be used with preprocessors like Sass,
 
 (-----------------------------------------------------------------------------------------------)
 
+42- Do you need to use a CSS preprocessor when working with Tailwind?
+
+Ans- No, Tailwind works without preprocessors, and you can rely on PostCSS plugins for additional preprocessing features.
+
+(-----------------------------------------------------------------------------------------------)
+
 
 
 
