@@ -346,5 +346,12 @@ Ans- Use the postcss-import plugin to handle CSS imports at build time, making s
 
 (-----------------------------------------------------------------------------------------------)
 
+59- Which PostCSS plugin helps with CSS imports in Tailwind?
+
+Ans- The postcss-import plugin allows you to manage imports in your CSS at build time.
+
+(-----------------------------------------------------------------------------------------------)
+
+
 
 
