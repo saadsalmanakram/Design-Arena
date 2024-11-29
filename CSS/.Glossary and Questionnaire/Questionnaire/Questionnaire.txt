@@ -1,0 +1,6 @@
+1- What is Tailwind CSS?
+Ans- Tailwind CSS is a utility-first CSS framework that helps developers rapidly build custom user interfaces by applying pre-defined utility classes directly in HTML.
+
+(------------------------------------------------------------------------------------------------)
+
+2- 
