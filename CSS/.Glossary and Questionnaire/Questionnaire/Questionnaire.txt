@@ -202,5 +202,11 @@ Ans- Yes, since it’s a Prettier plugin, it works in any editor or IDE that sup
 
 (-----------------------------------------------------------------------------------------------)
 
+35- How do JetBrains IDEs support Tailwind CSS?
+
+Ans- JetBrains IDEs like WebStorm and PhpStorm provide intelligent Tailwind CSS completions in HTML and when using @apply.
+
+(-----------------------------------------------------------------------------------------------)
+
 
 
