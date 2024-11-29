@@ -214,5 +214,11 @@ Ans- JetBrains IDEs support Tailwind CSS through their built-in intelligent comp
 
 (-----------------------------------------------------------------------------------------------)
 
+37- What should you do if your editor is strict about CSS syntax when using Tailwind CSS?
+
+Ans- You may need to disable native CSS linting or validation to avoid errors for Tailwind’s custom at-rules.
+
+(-----------------------------------------------------------------------------------------------)
+
 
 
