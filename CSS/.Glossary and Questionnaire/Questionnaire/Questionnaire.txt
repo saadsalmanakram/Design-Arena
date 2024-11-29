@@ -220,5 +220,11 @@ Ans- You may need to disable native CSS linting or validation to avoid errors fo
 
 (-----------------------------------------------------------------------------------------------)
 
+38- What feature does the IntelliSense plugin offer when you hover over a class name?
+
+Ans- Hover previews display the complete CSS for a Tailwind class when you hover over it in the code.
+
+(-----------------------------------------------------------------------------------------------)
+
 
 
