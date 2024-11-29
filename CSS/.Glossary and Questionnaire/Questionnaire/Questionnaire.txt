@@ -424,6 +424,12 @@ Ans- Many frameworks automatically handle CSS minification and optimization in p
 
 (-----------------------------------------------------------------------------------------------)
 
+72- What is the key benefit of using Tailwind CSS in terms of CSS file size for production?
+
+Ans- The key benefit is its ability to generate very small CSS files (often under 10KB) by removing unused styles and minimizing the file.
+
+(-----------------------------------------------------------------------------------------------)
+
 
 
 
