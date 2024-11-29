@@ -112,4 +112,10 @@ Ans- Play CDN is a quick way to try Tailwind without setting up a build environm
 
 (------------------------------------------------------------------------------------------------)
 
+20- How can Tailwind CSS be integrated with frameworks like React or Vue?
+
+Ans- Follow framework-specific guides to configure Tailwind with their build tools or use PostCSS integrations.
+
+(------------------------------------------------------------------------------------------------)
+
 
