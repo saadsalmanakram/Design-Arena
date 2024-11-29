@@ -370,5 +370,11 @@ Ans- Tailwind CSS generates only the CSS that is actually used in your project, 
 
 (-----------------------------------------------------------------------------------------------)
 
+63- How does Tailwind CSS ensure small file sizes?
+
+Ans- Tailwind uses purging to remove unused CSS and minification to reduce the file size.
+
+(-----------------------------------------------------------------------------------------------)
+
 
 
