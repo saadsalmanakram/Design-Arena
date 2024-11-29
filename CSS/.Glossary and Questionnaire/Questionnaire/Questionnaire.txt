@@ -322,6 +322,12 @@ Ans- PostCSS and Autoprefixer automatically manage vendor prefixes without needi
 
 (-----------------------------------------------------------------------------------------------)
 
+55- What are the benefits of using PostCSS over separate preprocessors in a Tailwind project?
+
+Ans- PostCSS simplifies the build process, offers faster compilation, and avoids compatibility issues with Tailwind’s custom syntax.
+
+(-----------------------------------------------------------------------------------------------)
+
 
 
 
