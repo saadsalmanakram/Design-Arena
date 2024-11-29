@@ -178,5 +178,11 @@ Ans- It offers intelligent class name suggestions, error highlighting, previewin
 
 (------------------------------------------------------------------------------------------------)
 
+31- What are the benefits of using Prettier with Tailwind CSS?
+
+Ans- Prettier can automatically sort Tailwind CSS classes in the recommended order, improving code readability and consistency.
+
+(-----------------------------------------------------------------------------------------------)
+
 
 
