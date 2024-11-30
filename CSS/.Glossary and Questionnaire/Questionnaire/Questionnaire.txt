@@ -436,8 +436,11 @@ Ans- Tailwind uses a purging mechanism to remove unused CSS classes, reducing th
 
 (-----------------------------------------------------------------------------------------------)
 
+74- What is the utility-first CSS approach?
 
+Ans- The utility-first CSS approach involves styling elements directly in HTML using predefined utility classes rather than writing custom CSS.
 
+(------------------------------------------------------------------------------------------------)
 
 
 
