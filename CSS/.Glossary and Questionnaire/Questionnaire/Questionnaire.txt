@@ -568,5 +568,12 @@ Ans- The @apply directive in Tailwind allows you to create custom classes by app
 
 (------------------------------------------------------------------------------------------------)
 
+96- How does Tailwind’s class name structure contribute to scalability in large projects?
+
+Ans- Tailwind's utility class names are simple and descriptive, which scales well in large projects by avoiding complex CSS class structures.
+
+(-------------------------------------------------------------------------------------------------)
+
+
 
 
