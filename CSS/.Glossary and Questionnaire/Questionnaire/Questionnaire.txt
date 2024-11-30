@@ -442,5 +442,18 @@ Ans- The utility-first CSS approach involves styling elements directly in HTML u
 
 (------------------------------------------------------------------------------------------------)
 
+75- What is the main difference between utility-first CSS and traditional CSS?
+
+Ans- Traditional CSS involves writing custom styles in a separate stylesheet, while utility-first CSS applies predefined utility classes directly to HTML elements.
+
+(------------------------------------------------------------------------------------------------)
+
+76- How does Tailwind CSS relate to the utility-first CSS approach?
+
+Ans- Tailwind CSS is a utility-first CSS framework that provides predefined utility classes for styling elements directly in HTML.
+
+(------------------------------------------------------------------------------------------------)
+
+
 
 
