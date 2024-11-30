@@ -1,0 +1,42 @@
+<style>
+  body {
+    background: #F3EAD2;
+  }
+
+  .r {
+    width: 42.5px;
+    height: 140px;
+    background-color: #D96C7B;
+    transform: skew(-20deg) translate(227px, 72px);
+  }
+
+  .l {
+    width: 42.5px;
+    height: 140px;
+    background-color: #8F3F4A;
+    transform: skew(20deg) translate(165.5px, -68px);
+  }
+
+  .b {
+    width: 450px;
+    height: 20px;
+    background-color: #8F3F4A;
+    transform: translate(-10px,-163px);
+  }
+  .b2 {
+    width: 450px;
+    height: 10px;
+    background-color: #F3EAD2;
+    transform: translate(-10px,-163px);
+  }
+  
+</style>
+
+<div>
+  <div>
+    <div class="r"></div>
+    <div class="l"></div>
+    <div class="b"></div>
+    <div class="b2"></div>
+  </div>
+</div>
