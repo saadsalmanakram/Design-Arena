@@ -562,5 +562,11 @@ Ans- Tailwind CSS allows customization through a configuration file where you ca
 
 (------------------------------------------------------------------------------------------------)
 
+95- What role does Tailwind’s @apply directive play in utility-first CSS?
+
+Ans- The @apply directive in Tailwind allows you to create custom classes by applying a set of utility classes, simplifying reuse while avoiding repetition.
+
+(------------------------------------------------------------------------------------------------)
+
 
 
