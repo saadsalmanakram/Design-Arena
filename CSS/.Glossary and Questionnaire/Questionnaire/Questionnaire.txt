@@ -472,6 +472,12 @@ Ans- Tailwind's utility classes are reusable, reducing the need for large, repet
 
 (------------------------------------------------------------------------------------------------)
 
+80- What are the maintainability concerns when using utility-first CSS?
+
+Ans- The main concern is managing commonly repeated utility combinations, which can be solved by extracting components and using editor features like multi-cursors.
+
+(------------------------------------------------------------------------------------------------)
+
 
 
 
