@@ -520,6 +520,11 @@ Ans- By reducing custom CSS, promoting reusable utility classes, and maintaining
 
 (------------------------------------------------------------------------------------------------)
 
+88- Can Tailwind CSS be used for building fully responsive websites?
+
+Ans- Yes, Tailwind CSS provides responsive utilities that make it easy to create fully responsive websites without writing custom media queries.
+
+(------------------------------------------------------------------------------------------------)
 
 
 
