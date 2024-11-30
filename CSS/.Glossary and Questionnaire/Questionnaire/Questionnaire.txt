@@ -574,6 +574,11 @@ Ans- Tailwind's utility class names are simple and descriptive, which scales wel
 
 (-------------------------------------------------------------------------------------------------)
 
+97- Can utility-first CSS be used in production environments?
+
+Ans- Yes, utility-first CSS can be used in production environments, and tools like PurgeCSS can remove unused classes, ensuring that the final build remains small and optimized.
+
+(-------------------------------------------------------------------------------------------------)
 
 
 
