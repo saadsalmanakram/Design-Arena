@@ -544,5 +544,17 @@ Ans- Since utility classes are predefined and reusable, team members can collabo
 
 (------------------------------------------------------------------------------------------------)
 
+92- What is the importance of using a predefined design system in utility-first CSS?
+
+Ans- A predefined design system ensures visual consistency across the UI, making it easier to design and maintain applications.
+
+(------------------------------------------------------------------------------------------------)
+
+93- How do you handle complex design components in utility-first CSS?
+
+Ans- Complex components are built by combining multiple utility classes, and patterns can be extracted into reusable components for better maintainability.
+
+(------------------------------------------------------------------------------------------------)
+
 
 
