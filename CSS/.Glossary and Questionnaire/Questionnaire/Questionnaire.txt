@@ -490,6 +490,11 @@ Ans- Tailwind CSS uses responsive utility classes to build fully responsive layo
 
 (------------------------------------------------------------------------------------------------)
 
+83- How does Tailwind handle states like hover and focus?
+
+Ans- Tailwind CSS uses state variants, such as hover: and focus:, to easily style elements for different user interactions.
+
+(------------------------------------------------------------------------------------------------)
 
 
 
