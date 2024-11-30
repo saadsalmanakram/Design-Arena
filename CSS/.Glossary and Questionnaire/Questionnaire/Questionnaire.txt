@@ -526,5 +526,23 @@ Ans- Yes, Tailwind CSS provides responsive utilities that make it easy to create
 
 (------------------------------------------------------------------------------------------------)
 
+89- What is a component-based approach in utility-first CSS, and why is it important?
+
+Ans- A component-based approach involves creating reusable UI components with utility classes, making the design system more modular and maintainable.
+
+(------------------------------------------------------------------------------------------------)
+
+90- How does Tailwind CSS prevent the growth of bloated CSS files?
+
+Ans- By using utility classes that are reusable, Tailwind CSS ensures that there is no need to write new CSS for each feature, avoiding bloated files.
+
+(------------------------------------------------------------------------------------------------)
+
+91- How does the utility-first approach improve collaboration in development teams?
+
+Ans- Since utility classes are predefined and reusable, team members can collaborate on designs without conflicting CSS rules or naming conventions.
+
+(------------------------------------------------------------------------------------------------)
+
 
 
