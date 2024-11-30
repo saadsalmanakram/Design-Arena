@@ -556,5 +556,11 @@ Ans- Complex components are built by combining multiple utility classes, and pat
 
 (------------------------------------------------------------------------------------------------)
 
+94- How does Tailwind CSS support customization of styles?
+
+Ans- Tailwind CSS allows customization through a configuration file where you can define your own colors, spacing, breakpoints, and other design tokens.
+
+(------------------------------------------------------------------------------------------------)
+
 
 
