@@ -484,6 +484,12 @@ Ans- Repeated utility combinations can be managed by creating components, partia
 
 (------------------------------------------------------------------------------------------------)
 
+82- How does Tailwind CSS support responsive design?
+
+Ans- Tailwind CSS uses responsive utility classes to build fully responsive layouts without needing media queries in custom CSS.
+
+(------------------------------------------------------------------------------------------------)
+
 
 
 
