@@ -496,5 +496,30 @@ Ans- Tailwind CSS uses state variants, such as hover: and focus:, to easily styl
 
 (------------------------------------------------------------------------------------------------)
 
+84- Why is the utility-first approach considered more productive than traditional CSS?
+
+Ans- It allows developers to build and modify custom designs directly in HTML without needing to write separate CSS, resulting in faster development.
+
+(------------------------------------------------------------------------------------------------)
+
+85- How do you achieve custom component design using Tailwind CSS?
+
+Ans- Custom components are designed by combining Tailwind’s utility classes for layout, spacing, typography, and colors directly in HTML.
+
+(------------------------------------------------------------------------------------------------)
+
+86- What are the drawbacks of using inline styles over utility-first CSS?
+
+Ans- Inline styles are less maintainable, can't handle responsive design or states like hover, and are not based on a consistent design system.
+
+(------------------------------------------------------------------------------------------------)
+
+87- How can Tailwind CSS help with the maintainability of large-scale web applications?
+
+Ans- By reducing custom CSS, promoting reusable utility classes, and maintaining a consistent design system, Tailwind CSS helps keep large-scale projects manageable.
+
+(------------------------------------------------------------------------------------------------)
+
+
 
 
