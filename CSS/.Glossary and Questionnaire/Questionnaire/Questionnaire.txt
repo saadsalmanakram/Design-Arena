@@ -454,6 +454,24 @@ Ans- Tailwind CSS is a utility-first CSS framework that provides predefined util
 
 (------------------------------------------------------------------------------------------------)
 
+77- What are the main advantages of using a utility-first approach over traditional CSS?
+
+Ans- It eliminates the need for custom class names, reduces CSS file size, and ensures safer and easier changes with minimal global impacts.
+
+(------------------------------------------------------------------------------------------------)
+
+78- What are some benefits of using Tailwind CSS over inline styles?
+
+Ans- Tailwind offers predefined design systems, responsiveness, and easy management of states like hover and focus, which inline styles cannot handle.
+
+(------------------------------------------------------------------------------------------------)
+
+79- Why is using Tailwind CSS considered more maintainable than traditional CSS?
+
+Ans- Tailwind's utility classes are reusable, reducing the need for large, repetitive CSS files, making the codebase easier to maintain.
+
+(------------------------------------------------------------------------------------------------)
+
 
 
 
