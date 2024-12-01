@@ -1,0 +1,37 @@
+<style>
+  body {
+    background: #0B2429;
+    position: 
+  }
+
+  .t {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 80px solid #4A7D7B;
+    position: absolute;
+  }
+
+  .a {
+    left: 50px;
+    top: 110px;
+  }
+
+  .b {
+    left: 250px;
+    top: 110px;
+  }
+
+  .c {
+    left: 150px;
+    top: 110px;
+    transform: rotate(180deg);
+  }
+</style>
+
+<div>
+  <div class="t a"></div>
+  <div class="t b"></div>
+  <div class="t c"></div>
+</div>
