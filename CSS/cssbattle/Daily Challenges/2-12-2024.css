@@ -1,0 +1,59 @@
+<style>
+  body {
+    background: #E0E7FF;
+  }
+
+  .s {
+    width: 60px;
+    height: 100px;
+    background-color: #D96C7B;
+    clip-path: polygon(
+      100% 0%, 66.6% 0, 66.6% 20%, 33.3% 20%, 33.3% 40%, 0 40%, 0 100%, 33.3% 100%, 33.3% 80%, 66.6% 80%, 66.6% 60%, 100% 60%, 100% 0%);
+    position: absolute;
+  }
+  .a {
+    left: 130px;
+    top: 40px;
+  }
+  
+  .b {
+    left: 210px;
+    top: 160px;
+  }
+
+  .c {
+    left: 130px;
+    top: 160px;
+    transform: scaleX(-1);
+  }
+
+  .d {
+    left: 210px;
+    top: 40px;
+    transform: scaleX(-1);
+  }
+
+  .p {
+    width: 60px;
+    height: 60px;
+    background-color: #0B2429;
+    transform: translate(162px, 112px);
+    clip-path: polygon(
+      66.6% 0, 33.3% 0,
+      33.3% 33.3%, 0 33.3%,
+      0 66.6%, 33.3% 66.6%,
+      33.3% 100%, 66.6% 100%,
+      66.6% 66.6%, 100% 66.6%,
+      100% 33.3%, 66.6% 33.3%)
+  }
+    
+</style>
+
+<div>
+  <div class="s a"></div>
+  <div class="s b"></div>
+  <div class="s c"></div>
+  <div class="s d"></div>
+  <div class="p"></div>
+  
+</div>
