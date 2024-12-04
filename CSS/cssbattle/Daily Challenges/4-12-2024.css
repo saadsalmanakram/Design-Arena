@@ -1,0 +1,49 @@
+<style>
+  body {
+    background: #E0E7FF;
+  }
+
+  .c {            
+    border: 40px solid #4F77FF;   
+    border-radius: 550%;        
+    background-color: transparent; 
+    position: absolute;
+  }
+
+  .a {
+    width: 200px;              
+    height: 200px;
+    left: 60px;
+    top: 10px;
+  }
+
+  .b {
+    width: 100px;
+    height: 100px;
+    left: 110px;
+    top: 60px;
+  }
+
+  .s {
+    width: 50px;
+    height: 40px;
+    background-color: #E0E7FF;
+    position: absolute;
+    left: 240px;
+    top: 130px
+  }
+
+  .s1 {
+    height: 80px;
+    left: 290px;
+    top: 110px
+  }
+  
+</style>
+
+<div>
+  <div class="c a"></div>
+  <div class="c b"></div>
+  <div class="s"></div>
+  <div class="s s1"></div>
+</div>
