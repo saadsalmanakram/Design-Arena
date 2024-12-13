@@ -3,7 +3,7 @@ const Subscribe = () => {
     <div>
       /* Your component content here */
     </div>
-  );
-};
+  )
+}
 
-export default Subscribe;
+export default Subscribe

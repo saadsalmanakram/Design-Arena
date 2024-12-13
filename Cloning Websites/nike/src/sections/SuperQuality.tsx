@@ -3,7 +3,7 @@ const SuperQuality = () => {
     <div>
       /* Your component content here */
     </div>
-  );
-};
+  )
+}
 
-export default SuperQuality;
+export default SuperQuality

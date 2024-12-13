@@ -3,7 +3,7 @@ const Services = () => {
     <div>
       /* Your component content here */
     </div>
-  );
-};
+  )
+}
 
-export default Services;
+export default Services

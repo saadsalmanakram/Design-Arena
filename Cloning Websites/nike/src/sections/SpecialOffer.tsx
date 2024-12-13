@@ -3,7 +3,7 @@ const SpecialOffer = () => {
     <div>
       /* Your component content here */
     </div>
-  );
-};
+  )
+}
 
-export default SpecialOffer;
+export default SpecialOffer

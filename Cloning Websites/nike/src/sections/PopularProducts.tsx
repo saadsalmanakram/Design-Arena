@@ -3,7 +3,7 @@ const PopularProducts = () => {
     <div>
       Popular Products
     </div>
-  );
-};
+  )
+}
 
-export default PopularProducts;
+export default PopularProducts
