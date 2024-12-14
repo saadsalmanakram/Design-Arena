@@ -17,4 +17,3 @@ export {
 	CustomerReviews,
 	Subscribe,
 	Footer
-}
