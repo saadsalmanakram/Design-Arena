@@ -1,7 +1,7 @@
-const Button = () => {
+const Button = ({ label, iconURL }) => {
 	return (
 		<button className="">
-			Click Me
+			{label}
 		</button>
 	)
 }

@@ -1,5 +1,7 @@
 import Button from "../components/Button";
 
+import { arrowRight } from '../assets/icons'
+
 const Hero = () => {
   return (
     <section
@@ -23,7 +25,7 @@ const Hero = () => {
           and innovation for your
           active life.
         </p>
-        <Button label="Show now" iconURL={arrowRight} />
+        <Button label="Shop now" iconURL={arrowRight} />
       </div>
     </section>
   )
