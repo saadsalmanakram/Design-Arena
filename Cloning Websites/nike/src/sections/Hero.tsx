@@ -1,3 +1,5 @@
+import Button from "../components/Button";
+
 const Hero = () => {
   return (
     <section
@@ -8,14 +10,21 @@ const Hero = () => {
       <div className="relative xl:w-2/5 flex flex-col
       justify-center items-start w-full max-xl:padding-x
       pt-28">
-      </div>
         <p>Our Summer Collection</p>
         <h1>
           <span>The New Arrival</span>
           <br />
-          <span>Nike Shoes</span>
+          <span>Nike</span>
+          Shoes
         </h1>
-
+        <p>
+          Discover Stylish Nike
+          arrivals, quality comfort,
+          and innovation for your
+          active life.
+        </p>
+        <Button label="Show now" iconURL={arrowRight} />
+      </div>
     </section>
   )
 }
