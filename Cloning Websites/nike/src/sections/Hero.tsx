@@ -21,7 +21,7 @@ const Hero = () => {
           <span className="xl:bg-white 
           xl:whitespace-nowrap relative z-10 pr-10">The New Arrival</span>
           <br />
-          <span>Nike</span>
+          <span className="text-coral-red inline-block mt-3">Nike</span>
           Shoes
         </h1>
         <p>
