@@ -13,8 +13,11 @@ const Hero = () => {
       <div className="relative xl:w-2/5 flex flex-col
       justify-center items-start w-full max-xl:padding-x
       pt-28">
-        <p>Our Summer Collection</p>
-        <h1>
+        <p className="text-xl font-montserrat 
+        text-coral-red">Our Summer Collection</p>
+        <h1 className="mt-10 font-palanquin text-8xl
+        max-sm:text-[72px] max-sm:leading-[82]
+        font-bold">
           <span>The New Arrival</span>
           <br />
           <span>Nike</span>
@@ -30,8 +33,8 @@ const Hero = () => {
 
         <div className="flex justify-starts items-start 
         flex-wrap w-full mt-20 gap-16">
-          {statistics.map((stat, index) => (
-            <div>
+          {statistics.map((stat) => (
+            <div key={stat.label}>
               <p>{stat.value}</p>
               <p>{stat.label}</p>
             </div>
