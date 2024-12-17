@@ -1,4 +1,5 @@
 import Button from "../components/Button";   
+import { shoe8 } from "../assets/images";
 
 const SuperQuality = () => {
   return (
@@ -14,14 +15,31 @@ const SuperQuality = () => {
           <span className="text-coral-red"> Super</span>
           <span className="text-coral-red"> Quality</span> Shoes
         </h2>
-        <p className="font-montserrat text-slate-gray text-lg
-        leading-8 mt-6 mb-14 sm:max-w-sm">
-          Discover Stylish Nike
-          arrivals, quality comfort,
-          and innovation for your
-          active life.
+        <p className="mt-4 lg:max-w-lg info-text">
+          Ensuring premium comfort and style, our
+          meticulously crafted footwear is designed to 
+          elevate your experience, providing you with
+          unmatched quality, innovation, and a touch of
+          elegance.
         </p>
-        <Button label="View details"/>
+        <p className="mt-6 lg:max-w-lg info-text">
+          Our dedication to detail and excellence 
+          ensures your satisfaction
+        </p>
+        <div className="mt-11">
+          <Button label="View details"/>
+        </div>
+      </div>
+
+      <div className="flex-1 flex justify-center
+      items-center">
+        <img 
+          src={shoe8} 
+          alt="shoe8"
+          width={570}
+          height={522}
+          className="object-contain"
+        />
       </div>
     </section>
   )
