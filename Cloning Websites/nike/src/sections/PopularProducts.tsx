@@ -1,3 +1,4 @@
+import PopularProductCard from  '../components/PopularProductCard';
 import { products } from '../constants';
 
 const PopularProducts = () => {
@@ -20,10 +21,11 @@ const PopularProducts = () => {
       <div className="mt-16 grid lg:grid-cols-4
       md:grid-cols-3 sm:grid-cols-2 grid-cols-1
       sm:gap-4 gap-14">
-        sdf 
+        {products.map((product) => (
+          <PopularProductCard key=
+          {product.name} {...product} />
+        ))}
       </div>
-
-      Popular Products
     </section>
   )
 }
