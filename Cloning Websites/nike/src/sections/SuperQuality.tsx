@@ -27,16 +27,10 @@ const SuperQuality = () => {
           Our dedication to detail and excellence 
           ensures your satisfaction
         </p>
-        <div className="mt-11 flex flex-wrap gap-4">
+        <div className="mt-11">
           <Button 
             label="Shoe Now"
             iconURL={arrowRight} 
-          />
-          <Button 
-            label="Learn more"
-            backgroundColor="bg-white"
-            borderColor="border-slate-gray"
-            textColor="text-slate-gray"
           />
         </div>
       </div>
