@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X5 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="2048px" height="2048px" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 2048 2048"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil14 {fill:none}
+    .fil8 {fill:#296424}
+    .fil6 {fill:#33691E}
+    .fil3 {fill:#38262C}
+    .fil0 {fill:#3E2723}
+    .fil9 {fill:#7EB45E}
+    .fil7 {fill:#9CCC65}
+    .fil5 {fill:#D47C0F}
+    .fil4 {fill:#D49144}
+    .fil12 {fill:#E34200}
+    .fil10 {fill:#E65100}
+    .fil13 {fill:#EF6713}
+    .fil11 {fill:#F57F17}
+    .fil2 {fill:#FF9100}
+    .fil1 {fill:#FFAB40}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <rect class="fil0" x="256" y="320" width="416" height="1408" rx="27" ry="27"/>
+  <rect class="fil1" x="256" y="565" width="416" height="53"/>
+  <rect class="fil1" x="256" y="1404" width="416" height="53"/>
+  <rect class="fil1" x="256" y="1298" width="416" height="53"/>
+  <circle class="fil2" cx="464" cy="892" r="103"/>
+  <rect class="fil2" x="353" y="1024" width="223" height="14"/>
+  <path class="fil3" d="M283 320l181 0 0 1408 -181 0c-15,0 -27,-12 -27,-27l0 -1353c0,-15 12,-27 27,-27z"/>
+  <polygon class="fil4" points="256,565 464,565 464,618 256,618 "/>
+  <polygon class="fil4" points="256,1404 464,1404 464,1457 256,1457 "/>
+  <polygon class="fil4" points="256,1298 464,1298 464,1351 256,1351 "/>
+  <path class="fil5" d="M464 789l0 0 0 205 0 0c-57,0 -103,-46 -103,-103 0,-57 46,-103 103,-103z"/>
+  <polygon class="fil5" points="353,1024 464,1024 464,1038 353,1038 "/>
+  <g id="_220504008">
+   <rect class="fil6" x="731" y="320" width="416" height="1408" rx="27" ry="27"/>
+   <rect class="fil7" x="731" y="565" width="416" height="53"/>
+   <rect class="fil7" x="731" y="1404" width="416" height="53"/>
+   <rect class="fil7" x="731" y="1298" width="416" height="53"/>
+   <circle class="fil7" cx="939" cy="892" r="103"/>
+   <rect class="fil7" x="828" y="1024" width="223" height="14"/>
+  </g>
+  <g id="_220502880">
+   <path class="fil8" d="M759 320l181 0 0 1408 -181 0c-15,0 -27,-12 -27,-27l0 -1353c0,-15 12,-27 27,-27z"/>
+   <polygon class="fil9" points="731,565 939,565 939,618 731,618 "/>
+   <polygon class="fil9" points="731,1404 939,1404 939,1457 731,1457 "/>
+   <polygon class="fil9" points="731,1298 939,1298 939,1351 731,1351 "/>
+   <path class="fil9" d="M939 789l0 0 0 205 0 0c-57,0 -103,-46 -103,-103 0,-57 46,-103 103,-103z"/>
+   <polygon class="fil9" points="828,1024 939,1024 939,1038 828,1038 "/>
+  </g>
+  <g id="_220502088">
+   <rect class="fil10" transform="matrix(0.909203 -0.116707 0.116707 0.909203 1203.38 352.215)" width="454" height="1536" rx="27" ry="27"/>
+   <g>
+    <rect class="fil11" transform="matrix(0.909203 -0.116707 0.116707 0.909203 1234.52 594.83)" width="454" height="58"/>
+    <rect class="fil11" transform="matrix(0.909203 -0.116707 0.116707 0.909203 1341.42 1427.67)" width="454" height="58"/>
+    <rect class="fil11" transform="matrix(0.909203 -0.116707 0.116707 0.909203 1327.93 1322.54)" width="454" height="58"/>
+    <circle class="fil11" transform="matrix(0.909203 -0.116707 0.116707 0.909203 1482.52 893.067)" r="112"/>
+    <rect class="fil11" transform="matrix(0.909203 -0.116707 0.116707 0.909203 1388.97 1038.16)" width="243" height="15"/>
+   </g>
+  </g>
+  <g id="_220500816">
+   <path class="fil12" d="M1231 349l180 -23 179 1397 -179 23c-15,2 -29,-9 -31,-24l-172 -1342c-2,-15 9,-29 24,-31z"/>
+   <g>
+    <polygon class="fil13" points="1235,595 1442,568 1448,621 1241,647 "/>
+    <polygon class="fil13" points="1341,1428 1548,1401 1555,1454 1348,1480 "/>
+    <polygon class="fil13" points="1328,1323 1535,1296 1541,1349 1335,1375 "/>
+    <path class="fil13" d="M1469 791l1 0 26 204 -1 0c-56,7 -108,-33 -115,-89 -7,-56 33,-108 89,-115z"/>
+    <polygon class="fil13" points="1389,1038 1500,1024 1502,1037 1391,1052 "/>
+   </g>
+  </g>
+  <rect class="fil14" width="2048" height="2048"/>
+ </g>
+</svg>
