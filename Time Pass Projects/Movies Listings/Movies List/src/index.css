@@ -7,10 +7,25 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-.logo {
-  transition: transform 0.3s ease-in-out;
+/* Custom CSS for Shining Gradient Effect */
+@keyframes shine {
+  0% {
+    background-position: -200%;
+  }
+  100% {
+    background-position: 200%;
+  }
 }
 
-.logo:hover {
-  transform: rotate(360deg);
+.shining-gradient {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(255, 255, 255, 0.1) 50%,
+    rgba(255, 255, 255, 0.5) 100%
+  );
+  background-size: 200%;
+  animation: shine 2s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

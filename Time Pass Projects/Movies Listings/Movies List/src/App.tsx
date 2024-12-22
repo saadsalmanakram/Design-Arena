@@ -21,7 +21,7 @@ function App() {
         isLoaded ? "opacity-100" : "opacity-0"
       } transition-opacity duration-1000 ease-in-out`}
     >
-      <header className="flex flex-col items-center gap-4 py-2.5">
+      <header className="flex flex-col items-center py-2">
         <div className="flex justify-center">
           <a href="https://vite.dev" target="_blank">
             <img
@@ -31,7 +31,7 @@ function App() {
             />
           </a>
         </div>
-        <h1 className="lg:text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-sky-400 to-blue-500">
+        <h1 className="lg:text-4xl font-extrabold bg-clip-text text-transparent shining-gradient">
           Movies Library
         </h1>
       </header>
