@@ -18,6 +18,9 @@ module.exports = {
       animation: {
         heartbeat: "heartbeat 1.5s infinite",
       },
+      backdropBlur: {
+        '10': '10px',  
+      },
     },
   },
   plugins: [],

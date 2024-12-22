@@ -1,25 +1,9 @@
-import { useState, useEffect } from "react";
-import reactLogo from "../assets/react.svg";  // Adjust the path for reactLogo
-import viteLogo from "/vite.svg";  // Vite logo path remains the same
+import reactLogo from "../assets/react.svg";  
+import viteLogo from "/vite.svg";   
 
 const Header = () => {
-  const [isLoaded, setIsLoaded] = useState(false);
-
-  useEffect(() => {
-    // Trigger the transition effect when the component mounts
-    const timer = setTimeout(() => {
-      setIsLoaded(true);
-    }, 500); // Delay before applying the loaded state for smooth transition
-
-    return () => clearTimeout(timer);
-  }, []);
-
   return (
-    <section
-      className={`min-h-screen bg-gradient-to-br from-gray-900 via-sky-900 to-gray-800 text-white font-sans ${
-        isLoaded ? "opacity-100" : "opacity-0"
-      } transition-opacity duration-1000 ease-in-out`}
-    >
+    <section>
       <header className="flex flex-col items-center py-2">
         <div className="flex justify-center">
           <a href="https://vite.dev" target="_blank" rel="noopener noreferrer">
