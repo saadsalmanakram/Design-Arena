@@ -32,7 +32,7 @@ This repository is designed to help you build visually stunning, responsive, and
 ## 🚀 Getting Started
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/yourusername/Design-Arena.git
+   git clone https://github.com/saadsalmanakram/Design-Arena.git
    ```
 2. Navigate to the directory:  
    ```bash
@@ -72,6 +72,9 @@ This repository will help you become proficient in:
 ## 🖌️ Join the Design-Arena!
 Start your journey to mastering web design and showcase your creative projects.  
 Follow and star the repository ⭐ to stay updated with new content and features!  
+
+---
+[Visit the Repository](https://github.com/saadsalmanakram/Design-Arena)  
 ```  
 
-Let me know if you'd like any further adjustments!
+Let me know if any further refinements are needed!
