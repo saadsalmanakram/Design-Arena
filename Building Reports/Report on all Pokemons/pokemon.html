@@ -6,6 +6,25 @@
     <title>Pokemon Report</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="icon" type="image/png" href="https://cdn.pixabay.com/photo/2018/05/21/13/09/pokemon-3418266_1280.png">
+    <style>
+        @keyframes heartbeat {
+            0% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.1); opacity: 0.8; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+        .heartbeat {
+            animation: heartbeat 1.5s infinite;
+            filter: drop-shadow(0 0 15px rgba(255, 0, 0, 0.7));
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        body {
+            opacity: 0;
+            animation: fadeIn 1s ease-in-out forwards;
+        }
+    </style>
 </head>
 <body class="text-center p-5">
 
@@ -17,12 +36,12 @@
                     <div class="inline-flex shrink-0 rounded-full border border-pink-300 bg-pink-100 p-2">
                        <img src="https://cdn.pixabay.com/photo/2018/05/21/13/09/pokemon-3418266_1280.png" alt="Logo" class="w-10 h-10">
                     </div>
-                    <span class="text-white text-xl font-bold">Pokemons Report</span>
+                    <span class="text-white text-xl font-bold ">Pokemons Report</span>
                 </div>
 
                 <!-- Centered Logo -->
                 <div class="absolute left-1/2 transform -translate-x-1/2">
-                    <img src="https://pngimg.com/d/pokemon_logo_PNG10.png" alt="Pokemon Logo" class="w-60 md:w-80 drop-shadow-2xl">
+                    <img src="https://pngimg.com/d/pokemon_logo_PNG10.png" alt="Pokemon Logo" class="w-48 md:w-64 heartbeat">
                 </div>
 
                 <ul class="hidden md:flex space-x-6">
@@ -36,7 +55,6 @@
     </header>
 
     <main>
-
 
     </main>
 
