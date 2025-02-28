@@ -11,24 +11,30 @@
 
     <header>    
         <!-- Navbar -->
-        <nav class="bg-red-500 p-4 shadow-md rounded-full">
-            <div class="container mx-auto flex justify-between items-center">
+        <nav class="bg-red-500 p-4 shadow-md rounded-full relative">
+            <div class="container mx-auto flex justify-between items-center relative">
                 <div class="flex items-center gap-2">
-                    <wrap class="inline-flex shrink-0 rounded-full border border-pink-300 bg-pink-100 p-2 dark:border-pink-300/10 dark:bg-pink-400/10">
+                    <div class="inline-flex shrink-0 rounded-full border border-pink-300 bg-pink-100 p-2">
                        <img src="https://cdn.pixabay.com/photo/2018/05/21/13/09/pokemon-3418266_1280.png" alt="Logo" class="w-10 h-10">
-                    </wrap>
-                    <span class="text-white text-xl font-bold">Pokemon Report</span>
+                    </div>
+                    <span class="text-white text-xl font-bold">Pokemons Report</span>
                 </div>
+
+                <!-- Centered Text -->
+                <div class="absolute left-1/2 transform -translate-x-1/2 text-white text-2xl md:text-3xl font-extrabold">
+                    Gotta Catch 'Em All
+                </div>
+
                 <ul class="hidden md:flex space-x-6">
                     <li><a href="#" class="text-white hover:text-gray-200">Home</a></li>
                     <li><a href="#" class="text-white hover:text-gray-200">Pokédex</a></li>
                     <li><a href="#" class="text-white hover:text-gray-200">About</a></li>
                     <li><a href="#" class="text-white hover:text-gray-200">Contact</a></li>
                 </ul>
+                
                 <button class="md:hidden text-white focus:outline-none" id="menu-btn">☰</button>
             </div>
         </nav>
-
     </header>
 
     <main>
