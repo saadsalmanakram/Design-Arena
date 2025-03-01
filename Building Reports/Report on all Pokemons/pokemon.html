@@ -24,13 +24,11 @@
             opacity: 0;
             animation: fadeIn 1s ease-in-out forwards;
         }
-
     </style>
 </head>
 <body class="text-center p-5">
 
     <header>    
-        <!-- Navbar -->
         <nav class="bg-red-500 p-4 shadow-md rounded-full relative drop-shadow-lg">
             <div class="container mx-auto flex justify-between items-center relative">
                 <div class="flex items-center gap-2">
@@ -39,12 +37,9 @@
                     </div>
                     <span class="text-white text-xl font-bold drop-shadow-lg">Pokemons Report</span>
                 </div>
-
-                <!-- Centered Logo -->
                 <div class="absolute left-1/2 transform -translate-x-1/2">
                     <img src="https://pngimg.com/d/pokemon_logo_PNG10.png" alt="Pokemon Logo" class="w-48 md:w-64 heartbeat">
                 </div>
-
                 <ul class="hidden md:flex space-x-6">
                     <li><a href="#" class="text-white hover:text-gray-200 drop-shadow-lg">Home</a></li>
                     <li><a href="#" class="text-white hover:text-gray-200 drop-shadow-lg">Pokédex</a></li>
@@ -55,12 +50,39 @@
         </nav>
     </header>
 
-    <main>
-
+    <main class="mt-10">
+        <h2 class="text-3xl font-bold">Pokémon Report</h2>
+        <div class="mt-5">
+            <label for="pokemon-select" class="block text-lg font-medium">Select a Pokémon:</label>
+            <select id="pokemon-select" class="mt-2 p-2 border rounded-md">
+                <option value="pikachu">Pikachu</option>
+                <option value="charizard">Charizard</option>
+                <option value="bulbasaur">Bulbasaur</option>
+            </select>
+        </div>
+        
+        <div id="report-panel" class="mt-5 p-6 max-w-3xl mx-auto bg-white border border-gray-300 shadow-lg rounded-lg">
+            <h3 class="text-2xl font-semibold" id="pokemon-name">Pikachu</h3>
+            <p id="pokemon-description" class="mt-2 text-gray-600">A famous electric-type Pokémon known for its speed and thunder abilities.</p>
+        </div>
     </main>
 
-    <footer>
+    <script>
+        const reports = {
+            pikachu: { name: "Pikachu", description: "A famous electric-type Pokémon known for its speed and thunder abilities." },
+            charizard: { name: "Charizard", description: "A powerful fire-flying type Pokémon that can unleash fiery blasts." },
+            bulbasaur: { name: "Bulbasaur", description: "A grass-poison type Pokémon that grows stronger with sunlight." }
+        };
         
+        document.getElementById("pokemon-select").addEventListener("change", function() {
+            const selectedPokemon = this.value;
+            document.getElementById("pokemon-name").textContent = reports[selectedPokemon].name;
+            document.getElementById("pokemon-description").textContent = reports[selectedPokemon].description;
+        });
+    </script>
+
+    <footer class="mt-10">
+        <p class="text-gray-600">&copy; 2025 Pokémon Report</p>
     </footer>
 </body>
 </html>
