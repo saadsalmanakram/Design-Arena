@@ -85,6 +85,12 @@
             <img id="pokemon-image" src="" alt="Pokemon" class="w-48 mx-auto mb-4">
             <h3 class="text-3xl font-semibold" id="pokemon-name"></h3>
             <p id="pokemon-description" class="mt-2"></p>
+            <ul class="mt-4 text-left text-lg">
+                <li><strong>Type:</strong> <span id="pokemon-type"></span></li>
+                <li><strong>Height:</strong> <span id="pokemon-height"></span></li>
+                <li><strong>Weight:</strong> <span id="pokemon-weight"></span></li>
+                <li><strong>Base Experience:</strong> <span id="pokemon-experience"></span></li>
+            </ul>
         </div>
     </main>
 
@@ -101,31 +107,40 @@
             pikachu: {
                 name: "Pikachu",
                 description: "An electric-type Pokémon known for its speed and thunder abilities.",
-                image: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png"
+                image: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png",
+                type: "Electric",
+                height: "0.4 m",
+                weight: "6.0 kg",
+                experience: "112"
             },
             charizard: {
                 name: "Charizard",
                 description: "A powerful fire-flying type Pokémon that can unleash fiery blasts.",
-                image: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png"
+                image: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+                type: "Fire/Flying",
+                height: "1.7 m",
+                weight: "90.5 kg",
+                experience: "240"
             },
             bulbasaur: {
                 name: "Bulbasaur",
                 description: "A grass-poison type Pokémon that grows stronger with sunlight.",
-                image: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png"
+                image: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png",
+                type: "Grass/Poison",
+                height: "0.7 m",
+                weight: "6.9 kg",
+                experience: "64"
             }
         };
         
         function updatePokemonInfo(pokemon) {
-            const panel = document.getElementById("report-panel");
-            const image = document.getElementById("pokemon-image");
-            
             document.getElementById("pokemon-name").textContent = reports[pokemon].name;
             document.getElementById("pokemon-description").textContent = reports[pokemon].description;
-            image.src = reports[pokemon].image;
-            
-            panel.classList.remove("fade-in-up");
-            void panel.offsetWidth;  
-            panel.classList.add("fade-in-up", "glow");
+            document.getElementById("pokemon-image").src = reports[pokemon].image;
+            document.getElementById("pokemon-type").textContent = reports[pokemon].type;
+            document.getElementById("pokemon-height").textContent = reports[pokemon].height;
+            document.getElementById("pokemon-weight").textContent = reports[pokemon].weight;
+            document.getElementById("pokemon-experience").textContent = reports[pokemon].experience;
         }
 
         window.onload = () => {
