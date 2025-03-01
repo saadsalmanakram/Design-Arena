@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Report</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/png" href="https://cdn.pixabay.com/photo/2018/05/21/13/09/pokemon-3418266_1280.png">
+    <style>
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .fade-in-up {
+            animation: fadeInUp 0.8s ease-out;
+        }
+        .glow {
+            box-shadow: 0 0 20px rgba(255, 255, 0, 0.8);
+            border: 2px solid rgba(255, 255, 0, 0.8);
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white p-5 text-center">
+
+    <header>    
+        <nav class="bg-red-500 p-4 shadow-md rounded-full relative drop-shadow-lg">
+            <div class="container mx-auto flex justify-between items-center">
+                <div class="flex items-center gap-2">
+                    <img src="https://cdn.pixabay.com/photo/2018/05/21/13/09/pokemon-3418266_1280.png" alt="Logo" class="w-10 h-10">
+                    <span class="text-white text-xl font-bold">Pokémon Report</span>
+                </div>
+                <ul class="hidden md:flex space-x-6">
+                    <li><a href="#" class="text-white hover:text-gray-200">Home</a></li>
+                    <li><a href="#" class="text-white hover:text-gray-200">Pokédex</a></li>
+                    <li><a href="#" class="text-white hover:text-gray-200">About</a></li>
+                    <li><a href="#" class="text-white hover:text-gray-200">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="mt-10">
+        <h2 class="text-4xl font-bold">Select Your Pokémon</h2>
+        <div class="mt-5">
+            <label for="pokemon-select" class="block text-lg font-medium">Choose a Pokémon:</label>
+            <select id="pokemon-select" class="mt-2 p-2 bg-gray-800 text-white border rounded-md">
+                <option value="pikachu">Pikachu</option>
+                <option value="charizard">Charizard</option>
+                <option value="bulbasaur">Bulbasaur</option>
+            </select>
+        </div>
+        
+        <div id="report-panel" class="hidden mt-8 p-6 max-w-3xl mx-auto bg-gray-800 border-gray-700 shadow-xl rounded-lg fade-in-up">
+            <img id="pokemon-image" src="" alt="Pokemon" class="w-48 mx-auto mb-4 hidden">
+            <h3 class="text-3xl font-semibold" id="pokemon-name"></h3>
+            <p id="pokemon-description" class="mt-2 text-gray-400"></p>
+        </div>
+    </main>
+
+    <script>
+        const reports = {
+            pikachu: {
+                name: "Pikachu",
+                description: "An electric-type Pokémon known for its speed and thunder abilities.",
+                image: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png"
+            },
+            charizard: {
+                name: "Charizard",
+                description: "A powerful fire-flying type Pokémon that can unleash fiery blasts.",
+                image: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png"
+            },
+            bulbasaur: {
+                name: "Bulbasaur",
+                description: "A grass-poison type Pokémon that grows stronger with sunlight.",
+                image: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png"
+            }
+        };
+        
+        document.getElementById("pokemon-select").addEventListener("change", function() {
+            const selectedPokemon = this.value;
+            const panel = document.getElementById("report-panel");
+            const image = document.getElementById("pokemon-image");
+            
+            document.getElementById("pokemon-name").textContent = reports[selectedPokemon].name;
+            document.getElementById("pokemon-description").textContent = reports[selectedPokemon].description;
+            image.src = reports[selectedPokemon].image;
+            image.classList.remove("hidden");
+            
+            panel.classList.remove("hidden", "fade-in-up");
+            void panel.offsetWidth;  // Reset animation
+            panel.classList.add("fade-in-up", "glow");
+        });
+    </script>
+
+    <footer class="mt-10">
+        <p class="text-gray-500">&copy; 2025 Pokémon Report</p>
+    </footer>
+</body>
+</html>
