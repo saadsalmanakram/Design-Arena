@@ -7,35 +7,38 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="icon" type="image/png" href="https://cdn.pixabay.com/photo/2018/05/21/13/09/pokemon-3418266_1280.png">
     <style>
-        /* Page Load Transition */
-        body {
-            opacity: 0;
-            transition: opacity 1s ease-in-out;
+        @keyframes heartbeat {
+            0% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.1); opacity: 0.8; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+        .heartbeat {
+            animation: heartbeat 1.5s infinite;
+            filter: drop-shadow(0 0 15px rgba(255, 0, 0, 0.7));
         }
         
-        /* Pokémon-themed background */
-        body.loaded {
-            opacity: 1;
-            background: linear-gradient(to bottom right, #ffcc00, #ff6600, #ff3300);
-            background-attachment: fixed;
-            color: white;
-        }
-        
-        @keyframes fadeInUp {
-            from { opacity: 0; transform: translateY(20px); }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-10px); }
             to { opacity: 1; transform: translateY(0); }
         }
-        
-        .fade-in-up {
-            animation: fadeInUp 0.8s ease-out;
+        body {
+            opacity: 0;
+            animation: fadeIn 1s ease-in-out forwards;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background: linear-gradient(to bottom right, #ffcc00, #ff6600, #ff3300);
+            color: white;
         }
-
+        main, nav, footer {
+            opacity: 0;
+            animation: fadeIn 1s ease-in-out forwards;
+            animation-delay: 0.5s;
+        }
         .glow {
             box-shadow: 0 0 15px rgba(255, 255, 0, 0.9);
             border: 2px solid rgba(255, 255, 0, 0.8);
         }
-
-        /* Pokémon Card Style */
         .pokemon-card {
             background: linear-gradient(135deg, #ffdb4d, #ff914d);
             color: #2b2b2b;
@@ -45,44 +48,45 @@
         }
     </style>
 </head>
-<body class="p-5 text-center flex flex-col min-h-screen">
+<body class="text-center p-5">
 
-    <div class="flex-grow">
-        <header>    
-            <nav class="bg-red-500 p-4 shadow-md rounded-full relative drop-shadow-lg">
-                <div class="container mx-auto flex justify-between items-center">
-                    <div class="flex items-center gap-2">
-                        <img src="https://cdn.pixabay.com/photo/2018/05/21/13/09/pokemon-3418266_1280.png" alt="Logo" class="w-10 h-10">
-                        <span class="text-white text-xl font-bold">Pokémon Report</span>
-                    </div>
-                    <ul class="hidden md:flex space-x-6">
-                        <li><a href="#" class="text-white hover:text-gray-200">Home</a></li>
-                        <li><a href="#" class="text-white hover:text-gray-200">Pokédex</a></li>
-                        <li><a href="#" class="text-white hover:text-gray-200">About</a></li>
-                        <li><a href="#" class="text-white hover:text-gray-200">Contact</a></li>
-                    </ul>
+    <header>
+        <nav class="bg-red-500 p-4 shadow-md rounded-full relative drop-shadow-lg">
+            <div class="container mx-auto flex justify-between items-center relative">
+                <div class="flex items-center gap-2">
+                    <img src="https://cdn.pixabay.com/photo/2018/05/21/13/09/pokemon-3418266_1280.png" alt="Logo" class="w-10 h-10">
+                    <span class="text-white text-xl font-bold">Pokémon Report</span>
                 </div>
-            </nav>
-        </header>
-
-        <main class="mt-10">
-            <h2 class="text-4xl font-bold">Select Your Pokémon</h2>
-            <div class="mt-5">
-                <label for="pokemon-select" class="block text-lg font-medium">Choose a Pokémon:</label>
-                <select id="pokemon-select" class="mt-2 p-2 bg-gray-800 text-white border rounded-md">
-                    <option value="pikachu" selected>Pikachu</option>
-                    <option value="charizard">Charizard</option>
-                    <option value="bulbasaur">Bulbasaur</option>
-                </select>
+                <div class="absolute left-1/2 transform -translate-x-1/2">
+                    <img src="https://pngimg.com/d/pokemon_logo_PNG10.png" alt="Pokémon Logo" class="w-48 md:w-64 heartbeat">
+                </div>
+                <ul class="hidden md:flex space-x-6">
+                    <li><a href="#" class="text-white hover:text-gray-200">Home</a></li>
+                    <li><a href="#" class="text-white hover:text-gray-200">Pokédex</a></li>
+                    <li><a href="#" class="text-white hover:text-gray-200">About</a></li>
+                    <li><a href="#" class="text-white hover:text-gray-200">Contact</a></li>
+                </ul>
             </div>
+        </nav>
+    </header>
 
-            <div id="report-panel" class="mt-8 p-6 max-w-3xl mx-auto pokemon-card fade-in-up">
-                <img id="pokemon-image" src="" alt="Pokemon" class="w-48 mx-auto mb-4">
-                <h3 class="text-3xl font-semibold" id="pokemon-name"></h3>
-                <p id="pokemon-description" class="mt-2"></p>
-            </div>
-        </main>
-    </div>
+    <main class="mt-10">
+        <h2 class="text-4xl font-bold">Select Your Pokémon</h2>
+        <div class="mt-5">
+            <label for="pokemon-select" class="block text-lg font-medium">Choose a Pokémon:</label>
+            <select id="pokemon-select" class="mt-2 p-2 bg-gray-800 text-white border rounded-md">
+                <option value="pikachu" selected>Pikachu</option>
+                <option value="charizard">Charizard</option>
+                <option value="bulbasaur">Bulbasaur</option>
+            </select>
+        </div>
+
+        <div id="report-panel" class="mt-8 p-6 max-w-3xl mx-auto pokemon-card">
+            <img id="pokemon-image" src="" alt="Pokemon" class="w-48 mx-auto mb-4">
+            <h3 class="text-3xl font-semibold" id="pokemon-name"></h3>
+            <p id="pokemon-description" class="mt-2"></p>
+        </div>
+    </main>
 
     <footer class="mt-auto">
         <p class="text-white">&copy; 2025 Pokémon Report</p>
@@ -120,20 +124,17 @@
             image.src = reports[pokemon].image;
             
             panel.classList.remove("fade-in-up");
-            void panel.offsetWidth;  // Reset animation
+            void panel.offsetWidth;  
             panel.classList.add("fade-in-up", "glow");
         }
 
-        // Load default Pokémon on page load
         window.onload = () => {
             updatePokemonInfo("pikachu");
         };
 
-        // Change Pokémon on selection
         document.getElementById("pokemon-select").addEventListener("change", function() {
             updatePokemonInfo(this.value);
         });
     </script>
-
 </body>
 </html>
