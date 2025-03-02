@@ -3,19 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aspect Ratio Video</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Aspect Ratio 16/9</title>
     <style>
-        .centered {
+        .container {
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
         }
+        .aspect-video {
+            aspect-ratio: 16 / 9;
+            width: 100%;
+            max-width: 800px;
+        }
     </style>
 </head>
 <body>
-    <div class="centered">
+    <div class="container">
         <iframe class="aspect-video w-full max-w-lg" src="https://www.youtube.com/embed/6akmv1bsz1M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 </body>
