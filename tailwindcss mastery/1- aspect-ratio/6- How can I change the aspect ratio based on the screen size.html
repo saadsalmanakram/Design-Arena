@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Aspect Ratio Change</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .aspect-responsive {
+            aspect-ratio: 3 / 2;
+            object-fit: cover;
+            width: 100%;
+            max-width: 600px;
+        }
+        @media (min-width: 768px) {
+            .aspect-responsive {
+                aspect-ratio: 4 / 3;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="aspect-responsive" src="https://cdn.pixabay.com/photo/2024/10/16/16/14/cat-9125207_1280.jpg" alt="Placeholder Image">
+    </div>
+</body>
+</html>
