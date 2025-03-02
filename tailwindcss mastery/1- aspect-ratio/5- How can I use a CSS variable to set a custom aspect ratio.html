@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Aspect Ratio Using CSS Variable</title>
+    <style>
+        :root {
+            --my-aspect-ratio: 5 / 4;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .aspect-custom {
+            aspect-ratio: var(--my-aspect-ratio);
+            object-fit: cover;
+            width: 100%;
+            max-width: 600px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="aspect-custom" src="https://cdn.pixabay.com/photo/2024/10/16/16/14/cat-9125207_1280.jpg" alt="Placeholder Image">
+    </div>
+</body>
+</html>
