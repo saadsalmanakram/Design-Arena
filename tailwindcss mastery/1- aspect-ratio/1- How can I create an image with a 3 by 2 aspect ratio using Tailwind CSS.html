@@ -3,20 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aspect Ratio 3/2 Image</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Aspect Ratio 3/2</title>
     <style>
-        .centered {
+        .container {
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
         }
+        .aspect-3/2 {
+            aspect-ratio: 3 / 2;
+            object-fit: cover;
+            width: 100%;
+            max-width: 600px;
+        }
     </style>
 </head>
 <body>
-    <div class="centered">
-        <img class="aspect-3/2 object-cover w-full max-w-lg" src="https://cdn.pixabay.com/photo/2024/10/16/16/14/cat-9125207_1280.jpg" alt="Placeholder Image">
+    <div class="container">
+        <img class="aspect-3/2" src="https://cdn.pixabay.com/photo/2024/10/16/16/14/cat-9125207_1280.jpg" alt="Placeholder Image">
     </div>
 </body>
 </html>
