@@ -1,53 +1,59 @@
-# Brightness Filter Utility
+# Filter: contrast()
 
 ## Introduction
-The `brightness` filter utility provides a way to control the brightness of an element using CSS filters. This utility applies the `filter: brightness()` property to elements, allowing you to adjust their brightness levels dynamically. The utility supports predefined values, custom values, and CSS variables, making it highly flexible for various design needs. It also supports responsive variants for different screen sizes.
+The `filter: contrast()` utility allows you to adjust the contrast of an element using Tailwind CSS. This utility provides various levels of contrast modifications, including predefined percentage values, custom values, and CSS variables. It is particularly useful for enhancing the visibility of images, text, and other UI elements.
 
 ## Usage
-You can apply brightness adjustments using the following utility classes:
+The `contrast-<number>` classes control the contrast level of an element. You can specify predefined values, use custom values, or reference CSS variables.
 
-### Predefined Brightness Levels
-The predefined brightness levels use the `brightness-<number>` syntax:
+### Available Classes
 
-| Class | CSS Equivalent |
-|--------|----------------|
-| `brightness-50` | `filter: brightness(50%);` |
-| `brightness-100` | `filter: brightness(100%);` |
-| `brightness-125` | `filter: brightness(125%);` |
-| `brightness-200` | `filter: brightness(200%);` |
+| Class                    | Styles                                  |
+|--------------------------|----------------------------------------|
+| `contrast-<number>`      | `filter: contrast(<number>%);`        |
+| `contrast-(<custom-property>)` | `filter: contrast(var(<custom-property>));` |
+| `contrast-[<value>]`     | `filter: contrast(<value>);`         |
 
-### Example:
-```html
-<img class="brightness-50" src="/img/mountains.jpg" />
-<img class="brightness-100" src="/img/mountains.jpg" />
-<img class="brightness-125" src="/img/mountains.jpg" />
-<img class="brightness-200" src="/img/mountains.jpg" />
-```
+## Examples
 
-## Using Custom Values
-For more flexibility, you can use the `brightness-[<value>]` syntax to specify any custom brightness value:
+### Basic Example
+Use the predefined contrast utilities like `contrast-50`, `contrast-100`, `contrast-125`, and `contrast-200` to control the contrast of an image:
 
 ```html
-<img class="brightness-[1.75]" src="/img/mountains.jpg" />
+<img class="contrast-50" src="/img/mountains.jpg" />
+<img class="contrast-100" src="/img/mountains.jpg" />
+<img class="contrast-125" src="/img/mountains.jpg" />
+<img class="contrast-200" src="/img/mountains.jpg" />
 ```
 
-Alternatively, use a CSS variable with the `brightness-(<custom-property>)` syntax:
+### Using a Custom Value
+Use the `contrast-[<value>]` syntax to set a completely custom contrast value:
 
 ```html
-<img class="brightness-(--my-brightness)" src="/img/mountains.jpg" />
+<img class="contrast-[.25]" src="/img/mountains.jpg" />
 ```
 
-This is equivalent to using `brightness-[var(--my-brightness)]`, where `var(--my-brightness)` dynamically assigns the brightness value.
+### Using CSS Variables
+To dynamically control contrast, use the `contrast-(<custom-property>)` syntax:
+
+```html
+<img class="contrast-(--my-contrast)" src="/img/mountains.jpg" />
+```
+This is equivalent to:
+
+```html
+<img class="contrast-[var(--my-contrast)]" src="/img/mountains.jpg" />
+```
 
 ## Responsive Design
-The brightness filter utility supports responsive variants, allowing you to apply different brightness levels based on screen size. Prefix the utility with a breakpoint, such as `md:`, to adjust brightness at medium screen sizes and above:
+You can apply contrast utilities conditionally at different breakpoints. Prefix a contrast utility with a breakpoint like `md:` to apply it at medium screen sizes and above:
 
 ```html
-<img class="brightness-110 md:brightness-150" src="/img/mountains.jpg" />
+<img class="contrast-125 md:contrast-150" src="/img/mountains.jpg" />
 ```
 
-For more details on responsive design and utility variants, refer to the official documentation on responsive variants.
+For more information on responsive variants, refer to the Tailwind CSS documentation.
 
 ## Conclusion
-The `brightness` filter utility is a simple yet powerful tool for controlling the brightness of elements in a design system. It offers predefined values, supports custom properties, and integrates seamlessly with responsive design principles.
+The `filter: contrast()` utility provides a simple yet powerful way to control contrast in Tailwind CSS. Whether you need predefined values, custom values, or CSS variables, this utility allows for great flexibility in styling images and UI components.
 
