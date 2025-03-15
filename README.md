@@ -1,7 +1,7 @@
 
 # Design-Arena 🎨🌟  
 
-![](https://pixabay.com/illustrations/abstract-watercolor-colorful-color-7818693/)
+![](https://img.freepik.com/premium-photo/dynamic-vibrant-explosion-various-colors-paint-deep-black-background-energetic-burst-colors-resembling-paint-splatter-ai-generated_538213-20396.jpg)
 
 Welcome to **Design-Arena**, your ultimate guide to learning, mastering, and advancing in **CSS** and **website designing**!
 This repository is designed to help you build visually stunning, responsive, and user-friendly websites while mastering both foundational and advanced concepts of web design.
