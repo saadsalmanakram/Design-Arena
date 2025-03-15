@@ -1,7 +1,7 @@
 
 # Design-Arena 🎨🌟  
 
-![](https://img.freepik.com/premium-photo/dynamic-vibrant-explosion-various-colors-paint-deep-black-background-energetic-burst-colors-resembling-paint-splatter-ai-generated_538213-20396.jpg)
+![](https://cdn.pixabay.com/photo/2024/06/01/20/58/beach-8803094_1280.jpg)
 
 Welcome to **Design-Arena**, your ultimate guide to learning, mastering, and advancing in **CSS** and **website designing**!
 This repository is designed to help you build visually stunning, responsive, and user-friendly websites while mastering both foundational and advanced concepts of web design.
