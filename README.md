@@ -1,7 +1,7 @@
 
 # Design-Arena 🎨🌟  
 
-![](https://cdn.pixabay.com/photo/2023/09/16/14/04/rainbow-8256805_1280.jpg)
+![](https://cdn.pixabay.com/photo/2023/02/27/15/15/abstract-7818693_1280.jpg)
 
 Welcome to **Design-Arena**, your ultimate guide to learning, mastering, and advancing in **CSS** and **website designing**!
 This repository is designed to help you build visually stunning, responsive, and user-friendly websites while mastering both foundational and advanced concepts of web design.
