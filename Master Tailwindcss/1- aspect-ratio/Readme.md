@@ -72,4 +72,4 @@ Now, you can use `aspect-retro` in your HTML:
 ```
 
 ## Conclusion
-The `aspect-ratio` utility simplifies managing element proportions while keeping layouts responsive. Whether using predefined classes, custom values, or responsive breakpoints, this utility ensures a seamless visual experience across devices.
+The `aspect-ratio` utility simplifies managing element proportions while keeping layouts responsive. Whether using predefined classes, custom values, or responsive breakpoints, this utility ensures a seamless visual experience across devices..
